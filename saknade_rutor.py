@@ -21,12 +21,6 @@ def solve_grid(grid, row, col):
             grid[row][col] = 0
     return False
 
-def print_grid(grid):
-    for i in range(GRID_SIZE):
-        for j in range(GRID_SIZE):
-            print(grid[i][j], end=" ")
-        print()
-
 def solvable_grid(grid, row, col):
     if row == GRID_SIZE:
         return grid
